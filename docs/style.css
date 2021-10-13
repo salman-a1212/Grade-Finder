@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   font-family: "Courier Prime", "Courier New", Courier, monospace;
-  background-image: url("/docs/img/bg-img.jpg");
 }
 
 .main {
@@ -14,6 +13,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("/docs/img/bg-img.jpg");
 }
 
 .input-con {
@@ -22,16 +22,15 @@
 
 .marks-obt {
   padding: 5px;
-  border: 1px solid #fff;
-  outline: 0;
-  color: #ddd;
+  border: 1px solid #000;
+  outline: 1;
+  color: #000;
   text-align: end;
 }
 
 h1,
 label {
   color: #ddd;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 ::-webkit-input-placeholder {
