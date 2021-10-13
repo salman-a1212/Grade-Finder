@@ -72,7 +72,7 @@ label {
 
 .result {
   border: 1px solid #ddd;
-  margin: 80px;
+  margin: 100px 0;
   color: #ddd;
   text-align: center;
   font-size: 25px;
