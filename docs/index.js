@@ -17,6 +17,11 @@ function grading() {
   } else if (percentage >= 33 && percentage <= 49) {
     result.innerText = "Grade D";
     result.style.color = "green";
+  } else if (percentage === "") {
+    result.innerText = "";
+  } else if (percentage > 100) {
+    result.innerText = "Are you nuts?";
+    result.style.color = "red";
   } else {
     result.innerText = "Failed";
     result.style.color = "red";
