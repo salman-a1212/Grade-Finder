@@ -25,9 +25,19 @@
   border: 1px solid #fff;
   outline: 0;
   color: #ddd;
+  text-align: end;
 }
 
 h1,
 label {
   color: #ddd;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-input-placeholder {
+  color: #ddd;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: small;
+  text-align: left;
 }
