@@ -1,20 +1,24 @@
-const input = document.getElementById("marks-obt").value;
-const result = document.getElementById("result");
-const inputCon = document.getElementById("input-con");
-
-var x = grading;
-let a = result;
-
 function grading() {
-  let a = result;
-  if (input >= 70 && input <= 79) {
-    a.innerText = "Grade A";
-  } else if (input >= 60 && input <= 69) {
-    a.innerText = "Grade B";
-  } else if (input >= 80) {
-    a.innerText = "Grade A1";
-  }
-  console.log("a", a.value);
-}
+  let percentage = document.getElementById("marks-obt").value;
+  let result = document.getElementById("result");
 
-input.addEventListener("oninput", grading);
+  if (percentage >= 80 && percentage <= 100) {
+    result.innerText = "Grade A1";
+    result.style.color = "green";
+  } else if (percentage >= 70 && percentage <= 79) {
+    result.innerText = "Grade A";
+    result.style.color = "green";
+  } else if (percentage >= 60 && percentage <= 69) {
+    result.innerText = "Grade B";
+    result.style.color = "green";
+  } else if (percentage >= 50 && percentage <= 59) {
+    result.innerText = "Grade C";
+    result.style.color = "green";
+  } else if (percentage >= 33 && percentage <= 49) {
+    result.innerText = "Grade D";
+    result.style.color = "green";
+  } else {
+    result.innerText = "Failed";
+    result.style.color = "red";
+  }
+}
