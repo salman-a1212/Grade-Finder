@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
+  background-image: url("/docs/img/bg-img.jpg");
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-con {
+  margin: 50px;
+}
+
+.marks-obt {
+  padding: 5px;
+  border: 1px solid #fff;
+  outline: 0;
+  color: #ddd;
+}
+
+h1,
+label {
+  color: #ddd;
+}
