@@ -10,15 +10,16 @@
   <body>
     <div class="main">
       <h1>Grade Finder</h1>
-      <div class="input-con">
+      <div class="input-con" id="input-con">
         <label for="marks-obt">Marks Obtained</label>
         <input
           type="number"
           placeholder="Insert marks obtained"
           class="marks-obt"
           id="marks-obt"
+          oninput="grading()"
         />
-        <div class="result" id="result"></div>
+        <p class="result" id="result"></p>
       </div>
     </div>
     <script src="index.js"></script>
