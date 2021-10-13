@@ -45,4 +45,6 @@ label {
   border: 1px solid #ddd;
   margin: 50px;
   color: #ddd;
+  text-align: center;
+  font-size: 25px;
 }
