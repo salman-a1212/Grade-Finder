@@ -1,15 +1,20 @@
 const input = document.getElementById("marks-obt").value;
 const result = document.getElementById("result");
+const inputCon = document.getElementById("input-con");
 
-// input.addEventListener("oninput", grading);
+var x = grading;
+let a = result;
 
-input.oninput = function grading() {
+function grading() {
+  let a = result;
   if (input >= 70 && input <= 79) {
-    result.innerText = "Grade A";
+    a.innerText = "Grade A";
   } else if (input >= 60 && input <= 69) {
-    result.innerText = "Grade B";
+    a.innerText = "Grade B";
   } else if (input >= 80) {
-    result.innerText = "Grade A1";
+    a.innerText = "Grade A1";
   }
-  console.log("result", result);
-};
+  console.log("a", a.value);
+}
+
+input.addEventListener("oninput", grading);
