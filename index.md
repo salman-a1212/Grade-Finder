@@ -54,6 +54,7 @@
   outline: 1;
   color: #000;
   text-align: end;
+  margin: 50px 0;
 }
 
 h1,
@@ -72,7 +73,7 @@ label {
 
 .result {
   border: 1px solid #ddd;
-  margin: 100px 0;
+  margin: 50px;
   color: #ddd;
   text-align: center;
   font-size: 25px;
