@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLWQ8bncHtbRjbebUwyZ2Yzb5R94veD3rKBRI74wSFK_AY3HzuHzUG9BbwIPiKnUQVbez8Y8VzSIQqfqCu6jWsRX-TQKGy8S0dqNMaAZ1z4hAR1fLbawCQctjz3fFz4eJNSCKqgJh-_7drZuhp-souvv=s612-no?authuser=0");
+  background-image: url("https://photos.app.goo.gl/WaCSsTggwayDpqEZ7");
   background-repeat: no-repeat;
   background-position: center;
 }
